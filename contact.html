@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Le timbre du Cœur</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Présentation</a></li>
+                <li><a href="index.html#histoire">Histoire</a></li>
+                <li><a href="index.html#investissement">Investissement</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="produit.html">Produits</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="contact">Contacte Nous</h2>
+            <form method="GET" action="message.html">
+                <p>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required
+                    minlength="1" maxlength="15" size="15">
+                </p>
+                <p>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required minlength="1" maxlength="15" size="15">
+                </p>
+                <p>
+                    <label for="mail">
+                        Adresse mail :  
+                    </label>
+                    <br>
+                    <input type="email" id="mail" name="mail" 
+                    placeholder="Exemple@Timbre.fr" size="22" required>
+                </p>
+                <p>
+                    <label for="message">
+                        Ton message :
+                    </label>
+                    <br>
+                    <textarea rows="5" cols="17" id="message" name="message" required>       
+                    </textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Envoyer">
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Le timbre du Cœur par Kenzi BACETTI - Réalisé le 07/12/2020
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+h1, h2, nav 
+{
+  font-family: 'Neucha', cursive;
+}
+
+ul 
+{
+  list-style: none;
+  display: flex;
+}
+
+li 
+{
+  margin : 5px;
+}
+
+body 
+{
+  background-color: #f6f6f6;
+}
+
+header
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+h1
+{
+  font-size: 4em;
+}
+
+
+nav li
+{
+  margin-right: 80px;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+nav li a 
+{
+  color: rgb(255, 255, 255); 
+  padding: 5px;
+  font-size: 2em;
+}
+
+nav li:hover, nav li a:hover 
+{
+  background-color: #982f47;
+  border: 3px solid black;
+}
+
+h2
+{
+  text-decoration: underline;
+  font-size: 1.8em;
+}
+
+#Do
+{
+  border-right: 2px solid black;
+}
+
+#Re
+{
+  border-right: 2px solid black;
+}
+
+#section 
+{
+  display: flex; 
+}
+
+#Timbre_cher
+{
+  width: 90%;
+  height: auto; 
+}
+
+figure
+{
+  text-align: center; 
+}
+
+figcaption
+{
+  font-style: italic;
+  font-size: 0.9em; 
+}
+
+
+table
+{
+  border-collapse: collapse;
+  background-color: #982f47; 
+  margin-bottom: 30px;
+  border-color: red;
+}
+
+th, td
+{
+  border: 3px solid rgb(0, 0, 0);
+  padding: 5px;
+  text-align: center;
+}
+
+#section2 
+{
+  display: flex; 
+  flex-direction: column;
+}
+
+.element1:nth-child(2)
+{
+  align-self: center;
+}
+
+textarea
+{
+  resize: none; 
+  margin-top: 5px;
+}
+
+input[type="email"]
+{
+  margin-top: 5px;
+}
+
+
+footer
+{
+  text-align: center;
+}
+
+input[type="submit"]
+{
+  background-color: #982f47; 
+  color:#000000;
+  padding: 5px;
+  border: 2px solid white;  
+  border-radius: 4px;
+
+}
+
+input[type="submit"]:hover
+{
+  background-color: #ffffff; 
+  border: 2px solid black;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#produits
+{
+  flex-direction: row;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.objet
+{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin: 2em;
+}
